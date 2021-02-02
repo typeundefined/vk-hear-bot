@@ -1,4 +1,4 @@
-{-# LANGUAGE OverloadedStrings, ScopedTypeVariables, QuasiQuotes, TemplateHaskell #-}
+{-# LANGUAGE OverloadedStrings, ScopedTypeVariables, TemplateHaskell #-}
 module Vk.Networking
   ( getServer
   , getServerRaw

@@ -1,4 +1,4 @@
-{-# LANGUAGE OverloadedStrings, DeriveGeneric, DeriveAnyClass #-}
+{-# LANGUAGE OverloadedStrings #-}
 module Vk.Types
   ( Handle(..)
   , createHandle
@@ -8,7 +8,6 @@ module Vk.Types
   , Event(..)
   ) where
 
-import GHC.Generics
 import Data.Aeson
 
 data Handle = Handle
